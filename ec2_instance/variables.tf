@@ -1,19 +1,23 @@
 variable "aws_ami" {
+  default = "ami-0c5204531f799e0c6"
   description = "AWS AMI"
 }
 
 variable "aws_instance_type" {
+  default = "t2.micro"
   description = "AWS INSTANCE TYPE"
+}
+
+variable "ec2_instance_name" {
+  type        = string
+  description = "The name to give the instance."
 }
 
 variable "aws_key_name" {
   description = "AWS USER KEY NAME"
 }
 
-variable "security_group_name" {
-  description = "security group name"
-}
-
 variable "server_port" {
+  default = 22
   description = "instance port to allow access"
 }

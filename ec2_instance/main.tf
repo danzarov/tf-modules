@@ -5,12 +5,11 @@ resource "aws_instance" "example" {
   vpc_security_group_ids = [aws_security_group.instance.id]
 
   tags = {
-    Name = "tf-example"
+    Name = var.ec2_instance_name
   }
 }
 
 resource "aws_security_group" "instance" {
-  name = var.security_group_name
 
   ingress {
     from_port   = var.server_port
