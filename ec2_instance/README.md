@@ -1,4 +1,4 @@
-usage:
+### Usage:
 
 `export AWS_ACCESS_KEY_ID="<YOUR-ACCESS-ID>"`
 
@@ -14,3 +14,5 @@ module "example_ec2_instance" {
   aws_key_name = "<the name of your aws key>"
 }
 ```
+
+**check the variables.tf file to see the variables you can overwrite besides the two ones above**
