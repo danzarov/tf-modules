@@ -10,7 +10,7 @@ variable "aws_instance_type" {
 
 variable "ec2_instance_name" {
   type        = string
-  description = "The name to give the instance."
+  description = "The instance name"
 }
 
 variable "aws_key_name" {
