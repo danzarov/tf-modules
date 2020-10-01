@@ -1,7 +1,9 @@
 usage:
 
 `export AWS_ACCESS_KEY_ID="<YOUR-ACCESS-ID>"`
+
 `export AWS_SECRET_ACCESS_KEY="<YOUR-SECRET-ACCESS-KEY>"`
+
 `export AWS_REGION="us-west-2"`
 
 ```
